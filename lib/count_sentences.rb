@@ -18,7 +18,6 @@ class String
     split_array = self.split(/\.|\?|\!/)
     new_array = split_array.reject{|x| x.empty?}
     new_array.count
-    binding.pry
   end
   
   
